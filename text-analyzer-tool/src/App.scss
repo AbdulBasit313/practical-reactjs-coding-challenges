@@ -1,0 +1,39 @@
+@use 'styles' as *;
+@use 'styles/reset.scss';
+@use 'styles/fonts.scss';
+@use 'styles/breakpoints.scss' as breakpoints;
+
+body {
+  background: url('./assets/images/appCover.png') no-repeat center center fixed;
+  background-size: cover;
+  background-color: $primary-background;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: $large-container;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.small-container {
+  width: 100%;
+  max-width: $medium-container;
+  margin: 0 auto;
+  padding: 0 25px;
+  min-height: calc(100vh - 100px);
+  @include breakpoints.devices(sm) {
+    padding: 18px;
+  }
+}
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+  @include breakpoints.devices(sm) {
+    margin-top: 15px;
+  }
+}

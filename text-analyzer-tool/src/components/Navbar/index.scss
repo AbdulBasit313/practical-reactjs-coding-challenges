@@ -1,0 +1,36 @@
+@use '../../styles/theme.scss' as *;
+@use '../../styles/breakpoints.scss' as breakpoints;
+
+.navbar {
+  padding: 19px 0;
+  background: $tertiary-background;
+  box-shadow: $shadow-1;
+  .nav-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .app-title {
+      color: $primary-text;
+      font-weight: 600;
+      font-size: 18px;
+      @include breakpoints.devices(sm) {
+        font-size: 16px;
+      }
+    }
+    .social-links {
+      display: flex;
+      flex-direction: row;
+      li {
+        color: $primary-text;
+        margin-left: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        @include breakpoints.devices(sm) {
+          font-size: 13px;
+          margin-left: 14px;
+        }
+      }
+    }
+  }
+}

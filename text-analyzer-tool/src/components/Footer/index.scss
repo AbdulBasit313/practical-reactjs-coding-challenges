@@ -1,0 +1,48 @@
+@use '../../styles/theme.scss' as *;
+@use '../../styles/breakpoints.scss' as breakpoints;
+
+.footer {
+  padding: 19px 0;
+  background: $tertiary-background;
+  // margin-top: 65px;
+  border-top: $footer-border;
+  @include breakpoints.devices(sm) {
+    margin-top: 30px;
+  }
+  .footer-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    p {
+      color: $primary-text;
+      font-size: 16px;
+      font-weight: 500;
+      @include breakpoints.devices(sm) {
+        font-size: 14px;
+      }
+    }
+    .other-pages {
+      display: flex;
+      flex-direction: row;
+      li {
+        color: $primary-text;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 20px;
+        position: relative;
+        cursor: pointer;
+        @include breakpoints.devices(sm) {
+          font-size: 13px;
+          font-weight: 400;
+        }
+        &:not(:last-child):after {
+          content: '|';
+          position: absolute;
+          width: 1px;
+          height: 100%;
+          right: -10px;
+        }
+      }
+    }
+  }
+}

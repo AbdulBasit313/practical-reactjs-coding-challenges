@@ -1,0 +1,47 @@
+@use '../../styles/theme.scss' as *;
+@use '../../styles/breakpoints.scss' as breakpoints;
+
+.bottom-result-bar {
+  padding: 26px 30px;
+  background-color: $secondary-background;
+  border: $box-border;
+  display: flex;
+  justify-content: space-around;
+  @include breakpoints.devices(lg) {
+    padding: 20px 26px;
+  }
+  @include breakpoints.devices(sm) {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .result-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .box-title {
+      color: $secondary-text;
+      font-weight: 500;
+      font-size: 16px;
+      @include breakpoints.devices(lg) {
+        font-size: 14px;
+      }
+    }
+    .box-value {
+      color: $primary-text;
+      font-weight: 600;
+      font-size: 18px;
+      margin-left: 12px;
+      @include breakpoints.devices(lg) {
+        font-size: 16px;
+      }
+      @include breakpoints.devices(md) {
+        font-weight: 500;
+        margin-left: 8px;
+      }
+      @include breakpoints.devices(sm) {
+        font-size: 14px;
+      }
+    }
+  }
+}

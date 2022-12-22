@@ -1,0 +1,28 @@
+@use '../../styles/theme.scss' as *;
+@use '../../styles/breakpoints.scss' as breakpoints;
+
+.text-area {
+  padding: 30px;
+  background-color: $secondary-background;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 400px;
+  border: $box-border;
+  resize: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 20px;
+  color: $primary-text;
+  @include breakpoints.devices(lg) {
+    font-size: 18px;
+  }
+  @include breakpoints.devices(md) {
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  &::placeholder {
+    font-weight: 700;
+    color: $light-gray;
+  }
+}
