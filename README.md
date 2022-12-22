@@ -14,7 +14,7 @@ The text analyzer is the first in the series of ReactJS coding challenges. In th
 
 ## How to start
 
-1. Clone this Text Analyzer (reactjs coding challenge) GitHub repo
+1. Clone this (reactjs coding challenges) GitHub repo
 2. Go to text-analyzer-tool folder
 3. Run npm install or yarn to install dependencies
 4. Run the server, you will then see the below screen on your local host
