@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+figure,
+blockquote,
+dl,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+body {
+  padding: 15px;
+  overflow-x: hidden;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.success {
+  color: var(--success-color);
+}
+.warning {
+  color: var(--warning-color);
+}
+.danger {
+  color: var(--danger-color);
+}
+
+.flx {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flxCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tac {
+  text-align: center;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.slider-style {
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+
+.slider-style .rc-slider-rail {
+  height: 8px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.slider-style .rc-slider-track {
+  background-color: var(--primary-color);
+  height: 8px;
+}
+
+.slider-style .rc-slider-handle {
+  width: 23px;
+  height: 23px;
+  border: 1px solid #000000;
+  background-color: var(--primary-color);
+  top: 2px;
+  z-index: 1;
+  opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 10px;
+  }
+}

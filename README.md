@@ -1,6 +1,22 @@
-# Practical ReactJS Coding Challenges To Improve Your Business Logic Skills
+# Free ReactJS Coding Challenges: Build Functionality for Responsive UI
 
-## Introduction to Text Analyzer Tool Challenge
+**Tech Stack:** ReactJS with Typescript
+
+## Who Can Use these ReactJS Coding Challenges?
+
+1. Beginner developers looking for a fun little **frontend coding challenges** to test their **ReactJS logic-building** skills
+
+2. Developers interested in building small tools that they can convert into **micro SAAS**
+
+3. Companies looking for **ReactJS hiring challenges** to assess their candidate's ReactJS coding skills
+
+## List of Reactjs Challenges
+
+All challenges are free. I wanted the challenges to be different and designed them carefully. In each challenge, I have covered different skill sets of JavaScript and Reactjs, from the array to object, the string to regex, and Reactjs hooks.
+
+## Challenge #1: Introduction to Text Analyzer Tool
+
+![text-analyzer-result.png](./assets/images/reactjs-text-analyzer-result.png)
 
 The text analyzer is the first in the series of ReactJS coding challenges. In this challenge, we have created a text area that calculates some parameters in the typed or pasted Text. The text area should calculate and show the following:
 
@@ -12,108 +28,24 @@ The text analyzer is the first in the series of ReactJS coding challenges. In th
 6. The longest word in paragraphs
 7. Number of pronouns in the Text (list is given)
 
-## How to start
-
-1. Clone this Text Analyzer (reactjs coding challenge) GitHub repo
-2. Go to text-analyzer-tool folder
-3. Run npm install or yarn to install dependencies
-4. Run the server, you will then see the below screen on your local host
-5. And you should be good to go
-
-![word, sentences, paragraphs counter tool.png](./assets/images/word-sentences-paragraphs-counter-tool-reactjs.png)
+**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-1-text-analysis-tool/)**
 
 **Objective:** To make each feature of app functional. [This](https://reactjs-text-analyzer.netlify.app/) is a live link of demo app.
 
-### Skills to be Tested:
+## Challenge #2: React Password Generator
 
-The challenge requires you to write the logic in Reacjts, and tests you on the following skills:
+![reactjs password generator](./assets/images/react-random-password-generator.jpg)
 
-1. how does Javascript if conditions and loops work?
-2. The basics of regular expression (regex)
-3. You can work with string and array related tasks/problems.
-4. how to work with `useState()`, `useEffect()`, and `useRef()` hooks.
+This challenge is suitable for beginners as well. In this challenge, you will develop logic for a password generator, including options for creating and validating a password with a specified strength, copying the password, and passwords with desired characters.
 
-## User Stories for Text Analyzer ReactJS Challenge
+**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-2-password-generator/)**
 
-Following are the “user stories” that you need to work on and make it functional:
+**Objective:** To make a functional app. This is a [live](https://reactjs-password-generator.vercel.app/) link.
 
-1. **Active text area:** As soon the page load the text area will be active and the cursor will be blinking, we don’t have to click the text area to activate it.
+## What if you couldn’t do ReactJS Challenges?
 
-2. **Counting Words and Characters:** It should count how many words and characters are there in the text. Let us do a quick test:
+Ideally, you should finish these challenges on your own regardless of how long it takes, as figuring it out on your own would help hone your skills as a front-end and ReactJS developer. However, you can see hints if you are stuck somewhere in the middle. Hints will give you a better idea about how to write logic.
 
-### Quick Test to Count Words and Characters
+For working code like you have seen in the [demo app](https://reactjs-text-analyzer.netlify.app/), you can send me an email at basit@codevertiser.com or can reach out to me on [LinkedIn](https://www.linkedin.com/in/abdulbasitprofile/) or [Twitter](https://twitter.com/Basit_Miyanji).
 
-```
-Hello, I  am John.
-```
-
-This text contains 4 words and 18 characters. Characters also include white spaces.
-
-3. **Counting Sentences and Paragraphs:** You must output the number of sentences and paragraphs in the Text. It should recognize the sentences using punctuation marks as the sentence ends at (.!?). A paragraph starts from a new line and must contain at least a word.
-
-### Quick Test to Count Sentences and Paragraphs
-
-```
-Hello, world! There are many variations of passages of Lorem Ipsum available?
-
-The majority have suffered alteration in some form, by injected humor, or randomized words which don't look even slightly believable.
-```
-
-The above text contains 3 sentences and 2 paragraphs.
-
-4. **Counting Pronouns:** You will find a list of pronouns in `src/data/pronouns.ts` file in the form of an array. You have to check how many pronouns have been used in the text. (I only added personal, object, possessive and reflexive pronouns in the file).
-
-In the same way, you can count any desired list of words.
-
-### Quick Test to Check Pronouns
-
-```
-How are you?  // 1 pronoun
-I am Mike.    // 1 pronoun
-You, ok?     // 1 pronoun
-That is mine. // 1 pronoun
-```
-
-5. **Calculate the Average Reading Time:** Assume the average reading time is 225 words per minute. You have to find out how long it would take to read the given text.
-
-6. **Find Longest Word in the Text:** If multiple longest words have the same length, it should show just the first one. Make sure you also handle edge cases like (.!?,) appear after the longest word.
-
-### Quick Test to Check Longest Word
-
-```
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature, from 45 BC, making it over 2000 years old.
-```
-
-The longest word in the Text is “literature”.
-
-7. The project is created with React and Typescript, so make typescript happy by writing all types.
-
-### Complete Test
-
-When you are done paste the following text into the tool and check if your answer matches.
-
-> Hello, how are you?
-
-> Lorem Ipsum is dummied text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
-> It has survived five centuries and the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-The above text contains:
-
-Words: **88**
-
-Characters: **570**
-
-Sentences: **5**
-
-Paragraphs: **3**
-
-Pronouns: **4**
-
-Average Reading Time: **~1 minute**
-
-Longest word: **typesetting**
-
-![text-analyzer-result.png](./assets/images/reactjs-text-analyzer-result.png)
-
-[Here](https://www.codevertiser.com/reactjs-coding-challenges-to-improve-business-logic/) you can read the intro article of ReactJS Challenges.
+[Here](https://www.codevertiser.com/free-reactjs-coding-challenges-for-responsive-UI/) you can read the intro article of ReactJS Challenges.

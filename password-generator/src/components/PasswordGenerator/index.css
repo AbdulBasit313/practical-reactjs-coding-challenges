@@ -1,0 +1,118 @@
+.password-wrapper {
+  background-color: #ffffff;
+  border-radius: 20px;
+  max-width: 830px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 25px 80px 40px 80px;
+  border: 1px solid #588b54;
+}
+
+.gif {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.gif img {
+  width: 134px;
+}
+
+.password-wrapper .title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.password-wrapper .subtitle {
+  font-size: 16px;
+  max-width: 470px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.password-input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.password-field {
+  display: flex;
+  flex: 1;
+  outline: 1px solid #3f563d;
+  border-radius: 14px;
+  margin-right: 15px;
+}
+
+.password-field input {
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  padding: 11px 12px;
+}
+
+.password-field svg {
+  margin-top: 4px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.copy-btn {
+  background-color: #33cccc;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy-btn svg {
+  margin-right: 7px;
+  width: 14px;
+}
+
+.health {
+  margin-top: 10px;
+  display: inline-block;
+  color: #12b40e;
+}
+
+.slider {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .password-wrapper {
+    padding: 12px 50px 25px 50px;
+  }
+  .copy-btn {
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .password-field {
+    border-radius: 14px;
+    margin-right: 11px;
+    border-radius: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .password-wrapper {
+    padding: 12px 25px 25px 25px;
+  }
+  .password-wrapper .title {
+    font-size: 22px;
+  }
+  .password-wrapper .subtitle {
+    font-size: 14px;
+  }
+  .password-field input {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
