@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap");
+
+:root {
+  --primary-color: #ff7d1f;
+  --secondary-color: #f0faf9;
+
+  --primary-text-color: #46474e;
+  --light-gary: #999999;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: var(--secondary-color);
+  color: var(--primary-text-color);
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.top-strip {
+  position: fixed;
+  width: 100%;
+  height: 39px;
+  background: var(--primary-color);
+  top: 0;
+}
+
+.bottom-strip {
+  position: fixed;
+  width: 100%;
+  height: 39px;
+  background: var(--primary-color);
+  bottom: 0;
+}
+
+.quotation-box {
+  min-height: calc(100vh - 39px - 39px - 45px);
+  margin-top: 120px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 50px;
+  color: var(--primary-text-color);
+}
+
+.bottom-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.share {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.share span {
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 7px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  margin-right: 40px;
+}
+
+.cp {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.disabled-button {
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.disabled-button path {
+  stroke: var(--light-gary);
+  cursor: not-allowed;
+}
+
+.disable-highlight-color {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .quotation-box {
+    margin-top: 70px;
+  }
+
+  .quote {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+  }
+
+  .bottom-navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .share {
+    margin-top: 30px;
+  }
+}

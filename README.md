@@ -42,10 +42,22 @@ This challenge is suitable for beginners as well. In this challenge, you will de
 
 **Objective:** To make a functional app. This is a [live](https://reactjs-password-generator.vercel.app/) link.
 
+## Challenge #3: React Random Quote Generator
+
+![react random quote generator](./assets/images/react-random-quote-generator.png)
+
+Challenge yourself to build a random quote generator using ReactJS and showcase your front-end development skills. Flourish your creativity with this fun code challenge!
+
+This challenge differs slightly from Text Analyzer and Password Generator because you need to fetch data from json-server using Axios.
+
+**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-3-random-quote-generator/)**
+
+**Objective:** To make a functional app. This is a [live](https://react-random-quote-application.netlify.app/) link.
+
 ## What if you couldn’t do ReactJS Challenges?
 
 Ideally, you should finish these challenges on your own regardless of how long it takes, as figuring it out on your own would help hone your skills as a front-end and ReactJS developer. However, you can see hints if you are stuck somewhere in the middle. Hints will give you a better idea about how to write logic.
 
-For working code like you have seen in the [demo app](https://reactjs-text-analyzer.netlify.app/), you can send me an email at basit@codevertiser.com or can reach out to me on [LinkedIn](https://www.linkedin.com/in/abdulbasitprofile/) or [Twitter](https://twitter.com/Basit_Miyanji).
+For working code like you have seen in the demo apps, you can send me an email at basit@codevertiser.com or can reach out to me on [LinkedIn](https://www.linkedin.com/in/abdulbasitprofile/) or [Twitter](https://twitter.com/Basit_Miyanji).
 
 [Here](https://www.codevertiser.com/free-reactjs-coding-challenges-for-responsive-UI/) you can read the intro article of ReactJS Challenges.
