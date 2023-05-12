@@ -1,0 +1,66 @@
+@use "styles" as *;
+@use "styles/reset.scss";
+@use "styles/fonts.scss";
+@use "styles/breakpoints.scss" as breakpoints;
+
+body {
+  background-color: #f0f2f5;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 720px;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-wrapper {
+  margin: 50px 0;
+}
+
+.top-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: $primary-color;
+  }
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.task-container {
+  margin-top: 40px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.flx-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flx-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.w-100 {
+  width: 170px;
+}

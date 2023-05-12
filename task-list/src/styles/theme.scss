@@ -1,0 +1,28 @@
+// Define variables
+$primary-color: #0a1629;
+$secondary-color: #91929e;
+$tertiary-color: #713fff;
+
+$success-color: #0ac947;
+$warning-color: #ffbd21;
+$error-color: #f73446;
+
+$white: #ffffff;
+$black: #000000;
+$gray: #7d8592;
+
+$container-width: 720px;
+$container-padding: 15px;
+$modal-priority-gap: 13px;
+
+// Define reusable mixins
+@mixin flex($direction: row, $justify: flex-start, $align: stretch) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin shadow($x: 0, $y: 6px, $blur: 58px, $color: rgba(196, 203, 214, 0.103611)) {
+  box-shadow: $x $y $blur $color;
+}

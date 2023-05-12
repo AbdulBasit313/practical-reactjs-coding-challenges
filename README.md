@@ -54,6 +54,22 @@ This challenge differs slightly from Text Analyzer and Password Generator becaus
 
 **Objective:** To make a functional app. This is a [live](https://react-random-quote-application.netlify.app/) link.
 
+## ReactJS Challenge #4: CRUD Typescript Tasklist App
+
+![react typescript todo list](./assets/images/react-typescript-todo-list.png)
+
+This React Typescript Tasklist/Todo challenge requires you to perform CRUD operations with instructions to write clean, reusable, manageable, and scalable code.
+
+CRUD refers to create, read, update, and delete. Mastering these operations in Reactjs means you can build any application.
+
+This challenge is different and more challenging than the last three challenges you have completed. If you can complete this ReactJS Typescript Tasklist challenge independently, you can be easily hired as an intern/junior React developer.
+
+This is not just a challenge, but my 3 years of working experience. The tasks you will be performing in this challenge are what a React developer performs daily. So, let's dive in and improve your React development skills!
+
+**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)**
+
+**Objective:** To make a functional app. This is a [live](https://react-tasklist.vercel.app) link.
+
 ## What if you couldn’t do ReactJS Challenges?
 
 Ideally, you should finish these challenges on your own regardless of how long it takes, as figuring it out on your own would help hone your skills as a front-end and ReactJS developer. However, you can see hints if you are stuck somewhere in the middle. Hints will give you a better idea about how to write logic.
