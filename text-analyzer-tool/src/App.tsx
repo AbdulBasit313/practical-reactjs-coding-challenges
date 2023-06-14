@@ -1,9 +1,9 @@
-import './App.scss'
-import BottomResultBox from './components/BottomResultBox'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import ResultBox from './components/ResultBox'
-import TextArea from './components/TextArea'
+import "./App.scss";
+import BottomResultBox from "./components/BottomResultBox";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ResultBox from "./components/ResultBox";
+import TextArea from "./components/TextArea";
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

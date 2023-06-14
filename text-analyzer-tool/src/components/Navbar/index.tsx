@@ -1,6 +1,6 @@
-import { ReactComponent as Linkedin } from '../../assets/icons/linkedin.svg'
-import { ReactComponent as Twitter } from '../../assets/icons/twitter.svg'
-import { ReactComponent as Website } from '../../assets/icons/website.svg'
+import Linkedin from '../../assets/icons/linkedin.svg'
+import Twitter from '../../assets/icons/twitter.svg'
+import Website from '../../assets/icons/website.svg'
 import './index.scss'
 
 const Navbar = () => {
@@ -12,12 +12,12 @@ const Navbar = () => {
           <ul className="social-links">
             <li>
               <a href="https://codewithbasit.netlify.app/" target="_blank" rel="noreferrer">
-                <Website />
+                <img src={Website} />
               </a>
             </li>
             <li>
               <a href="https://twitter.com/Basit_Miyanji" target="_blank" rel="noreferrer">
-                <Twitter />
+                <img src={Twitter} />
               </a>
             </li>
             <li>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <Linkedin />
+                <img src={Linkedin} />
               </a>
             </li>
           </ul>
