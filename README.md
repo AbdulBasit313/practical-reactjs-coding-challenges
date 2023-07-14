@@ -1,6 +1,13 @@
 # Free ReactJS Coding Challenges: Build Functionality for Responsive UI
 
-**Tech Stack:** ReactJS with Typescript
+This repository contains a collection of free ReactJS coding challenges designed to help developers improve their ReactJS logic-building skills and create functionality for responsive UI. The challenges are built using **ReactJS with TypeScript.**
+
+| Challenge                                        | Objective                                                             | Description                                                                                       | Demo Link                                                        |
+| ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Challenge #1: Introduction to Text Analyzer Tool | A text area that calculates parameters of the typed or pasted text    | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-1-text-analysis-tool/)     | [Live Demo](https://reactjs-text-analyzer.netlify.app/)          |
+| Challenge #2: React Password Generator           | Logic for generating and validating passwords with specified strength | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-2-password-generator/)     | [Live Demo](https://reactjs-password-generator.vercel.app/)      |
+| Challenge #3: React Random Quote Generator       | Fetching and displaying random quotes using ReactJS                   | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-3-random-quote-generator/) | [Live Demo](https://react-random-quote-application.netlify.app/) |
+| Challenge #4: CRUD Typescript Tasklist App       | Perform CRUD operations in a tasklist app using React and TypeScript  | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)      | [Live Demo](https://react-tasklist.vercel.app)                   |
 
 ## Who Can Use these ReactJS Coding Challenges?
 
@@ -70,7 +77,17 @@ This is not just a challenge, but my 3 years of working experience. The tasks yo
 
 **Objective:** To make a functional app. This is a [live](https://react-tasklist.vercel.app) link.
 
-## What if you couldn’t do ReactJS Challenges?
+## Can you star the ReactJS Challenges GitHub repo?
+
+I love creating free content that helps developers start their jobs and excel in their careers. Each challenge requires a lot of time to create.
+
+First, I brainstorm the challenge idea. Then, I collaborate with a freelance UI/UX designer to design the idea. After that, I convert the design into code and write content for the challenge.
+
+It's a lengthy process that requires time, energy, and resources.
+
+By starring this ReactJS Challenges repository, you will motivate me to create more free content like this.
+
+## Need Help or Working Code?
 
 Ideally, you should finish these challenges on your own regardless of how long it takes, as figuring it out on your own would help hone your skills as a front-end and ReactJS developer. However, you can see hints if you are stuck somewhere in the middle. Hints will give you a better idea about how to write logic.
 
