@@ -91,6 +91,10 @@ By starring this ReactJS Challenges repository, you will motivate me to create m
 
 Ideally, you should finish these challenges on your own regardless of how long it takes, as figuring it out on your own would help hone your skills as a front-end and ReactJS developer. However, you can see hints if you are stuck somewhere in the middle. Hints will give you a better idea about how to write logic.
 
-For working code like you have seen in the demo apps, you can send me an email at basit@codevertiser.com or can reach out to me on [LinkedIn](https://www.linkedin.com/in/abdulbasitprofile/) or [Twitter](https://twitter.com/Basit_Miyanji).
+Get working code like you've seen in the demo apps, for FREE!
+
+[Download from Gumroad now!](https://basit313.gumroad.com/l/learn-react-with-mini-projects)
+
+For suggestions and collaboration, you can send me an email at abdul_basit313@outlook.com or can reach out to me on [LinkedIn](https://www.linkedin.com/in/abdulbasitprofile/) or [Twitter](https://twitter.com/Basit_Miyanji).
 
 [Here](https://www.codevertiser.com/free-reactjs-coding-challenges-for-responsive-UI/) you can read the intro article of ReactJS Challenges.
