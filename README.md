@@ -1,13 +1,16 @@
 # Free ReactJS Coding Challenges: Build Functionality for Responsive UI
 
+![React Coding Challenges](./assets/images/React-Cdoing-Challenges.png)
+
 This repository contains a collection of free ReactJS coding challenges designed to help developers improve their ReactJS logic-building skills and create functionality for responsive UI. The challenges are built using **ReactJS with TypeScript.**
 
-| Challenge                                        | Objective                                                             | Description                                                                                       | Demo Link                                                        |
+| Title                                            | Objective                                                             | Description                                                                                       | Demo Link                                                        |
 | ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Challenge #1: Introduction to Text Analyzer Tool | A text area that calculates parameters of the typed or pasted text    | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-1-text-analyzer-tool/)     | [Live Demo](https://reactjs-text-analyzer.netlify.app/)          |
 | Challenge #2: React Password Generator           | Logic for generating and validating passwords with specified strength | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-2-password-generator/)     | [Live Demo](https://reactjs-password-generator.vercel.app/)      |
 | Challenge #3: React Random Quote Generator       | Fetching and displaying random quotes using ReactJS                   | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-3-random-quote-generator/) | [Live Demo](https://react-random-quote-application.netlify.app/) |
 | Challenge #4: CRUD Typescript Tasklist App       | Perform CRUD operations in a tasklist app using React and TypeScript  | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)      | [Live Demo](https://react-tasklist.vercel.app)                   |
+| Challenge #5: Memory Game React                  | Write a logic for versatile memory game in Reactjs                    | [Challenge Description](https://www.codevertiser.com/memory-game-react/)                          | [Live Demo](https://memory-marvel.vercel.app/)                   |
 
 ## Who Can Use these ReactJS Coding Challenges?
 
@@ -76,6 +79,20 @@ This is not just a challenge, but my 3 years of working experience. The tasks yo
 **Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)**
 
 **Objective:** To make a functional app. This is a [live](https://react-tasklist.vercel.app) link.
+
+## Challenge #5: Memory Marvel [Memory Game]
+
+![react memory game](./assets/images/memory-game-react.png)
+
+Do you wonder how **Memory Game logic** works or want to write your own using ReactJS?
+
+For the 5th challenge, I decided to add an interesting game: the Memory Game, I named it **Memory Marvel**.
+
+This challenge is specially designed to test your **JavaScript and React logics**.
+
+**Read the Challenge [Description](https://www.codevertiser.com/memory-game-react/)**
+
+**Objective:** To make a functional app. This is a [live](https://memory-marvel.vercel.app/) link.
 
 ## Can you star the ReactJS Challenges GitHub repo?
 

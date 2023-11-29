@@ -1,0 +1,42 @@
+.memory-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.memory-card.flipped .card-content {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  width: 100%;
+  border-radius: 14px;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 800px) {
+  .memory-card {
+    width: 140px;
+    height: 140px;
+  }
+}
