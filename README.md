@@ -7,7 +7,7 @@ This repository contains a collection of free ReactJS coding challenges designed
 | Title                                            | Objective                                                             | Description                                                                                       | Demo Link                                                        |
 | ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Challenge #1: Introduction to Text Analyzer Tool | A text area that calculates parameters of the typed or pasted text    | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-1-text-analyzer-tool/)     | [Live Demo](https://reactjs-text-analyzer.netlify.app/)          |
-| Challenge #2: React Password Generator           | Logic for generating and validating passwords with specified strength | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-2-password-generator/)     | [Live Demo](https://reactjs-password-generator.vercel.app/)      |
+| Challenge #2: React Password Generator           | Logic for generating and validating passwords with specified strength | [Challenge Description](https://www.codevertiser.com/react-password-generator/)                   | [Live Demo](https://reactjs-password-generator.vercel.app/)      |
 | Challenge #3: React Random Quote Generator       | Fetching and displaying random quotes using ReactJS                   | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-3-random-quote-generator/) | [Live Demo](https://react-random-quote-application.netlify.app/) |
 | Challenge #4: CRUD Typescript Tasklist App       | Perform CRUD operations in a tasklist app using React and TypeScript  | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)      | [Live Demo](https://react-tasklist.vercel.app)                   |
 | Challenge #5: Memory Game React                  | Write a logic for versatile memory game in Reactjs                    | [Challenge Description](https://www.codevertiser.com/memory-game-react/)                          | [Live Demo](https://memory-marvel.vercel.app/)                   |
@@ -38,17 +38,17 @@ The text analyzer is the first in the series of ReactJS coding challenges. In th
 6. The longest word in paragraphs
 7. Number of pronouns in the Text (list is given)
 
-**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-1-text-analysis-tool/)**
+**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-1-text-analyzer-tool/)**
 
 **Objective:** To make each feature of app functional. [This](https://reactjs-text-analyzer.netlify.app/) is a live link of demo app.
 
 ## Challenge #2: React Password Generator
 
-![reactjs password generator](./assets/images/react-random-password-generator.jpg)
+![reactjs password generator](./assets/images/react-random-password-generator.png)
 
 This challenge is suitable for beginners as well. In this challenge, you will develop logic for a password generator, including options for creating and validating a password with a specified strength, copying the password, and passwords with desired characters.
 
-**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-2-password-generator/)**
+**Read the Challenge [Description](https://www.codevertiser.com/react-password-generator/)**
 
 **Objective:** To make a functional app. This is a [live](https://reactjs-password-generator.vercel.app/) link.
 
