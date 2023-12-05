@@ -1,18 +1,21 @@
 import Slider from 'rc-slider'
 import 'rc-slider/assets/index.css'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
+
+import Checkbox from '../Checkbox'
 
 import passwordGif from '../../assets/gif/password.gif'
-import { ReactComponent as Copy } from '../../assets/icons/copy.svg'
-import { ReactComponent as Refresh } from '../../assets/icons/refresh.svg'
-import Checkbox from '../Checkbox'
+import copyIcon from '../../assets/icons/copy.svg'
+import refreshIcon from '../../assets/icons/refresh.svg'
+
 import './index.css'
 
 const PasswordGenerator = () => {
-  const [passwordLength, setPasswordLength] = useState<number>(8)
+  const [passwordLength, setPasswordLength] = useState<number>(10)
 
-  const onChangePasswordLength = (value: number | number[]) => {
-    setPasswordLength(value as number)
+  const onChangePasswordLength = (value: any) => {
+    setPasswordLength(value)
   }
 
   return (
@@ -23,16 +26,17 @@ const PasswordGenerator = () => {
       <div className="tac">
         <h2 className="title">PASSWORD GENERATOR</h2>
         <p className="subtitle">
-          Create strong and secure passwords to keep your account safe online.
+          Ensure online account safety by creating strong and secure passwords
         </p>
       </div>
       <div className="password-input-wrapper">
         <div className="password-field">
           <input type="text" placeholder="your password" value="B9QI4PDBYY" />
-          <Refresh />
+          <img src={refreshIcon} alt="refresh the password" />
         </div>
         <button className="copy-btn">
-          <Copy /> Copy
+          <img src={copyIcon} alt="copy password" />
+          Copy
         </button>
       </div>
       <span className="fw-500">Weak</span>

@@ -52,9 +52,8 @@
   padding: 11px 12px;
 }
 
-.password-field svg {
-  margin-top: 4px;
-  margin-right: 12px;
+.password-field img {
+  margin-right: 10px;
   cursor: pointer;
 }
 
@@ -67,11 +66,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: none;
+  border: none;
 }
 
-.copy-btn svg {
+.copy-btn img {
   margin-right: 7px;
-  width: 14px;
 }
 
 .health {
