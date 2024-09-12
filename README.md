@@ -4,13 +4,13 @@
 
 This repository contains a collection of free ReactJS coding challenges designed to help developers improve their ReactJS logic-building skills and create functionality for responsive UI. The challenges are built using **ReactJS with TypeScript.**
 
-| Title                                            | Objective                                                             | Description                                                                                       | Demo Link                                                        |
-| ------------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Challenge #1: Introduction to Text Analyzer Tool | A text area that calculates parameters of the typed or pasted text    | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-1-text-analyzer-tool/)     | [Live Demo](https://reactjs-text-analyzer.netlify.app/)          |
-| Challenge #2: React Password Generator           | Logic for generating and validating passwords with specified strength | [Challenge Description](https://www.codevertiser.com/react-password-generator/)                   | [Live Demo](https://reactjs-password-generator.vercel.app/)      |
-| Challenge #3: React Random Quote Generator       | Fetching and displaying random quotes using ReactJS                   | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-3-random-quote-generator/) | [Live Demo](https://react-random-quote-application.netlify.app/) |
-| Challenge #4: CRUD Typescript Tasklist App       | Perform CRUD operations in a tasklist app using React and TypeScript  | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)      | [Live Demo](https://react-tasklist.vercel.app)                   |
-| Challenge #5: Memory Game React                  | Write a logic for versatile memory game in Reactjs                    | [Challenge Description](https://www.codevertiser.com/memory-game-react/)                          | [Live Demo](https://memory-marvel.vercel.app/)                   |
+| Title                                         | Objective                                                             | Description                                                                                       | Demo Link                                                        |
+| --------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Challenge #1: Word and Sentences Counter Tool | A text area that calculates parameters of the typed or pasted text    | [Challenge Description](https://www.codevertiser.com/react-online-word-sentences-counter/)        | [Live Demo](https://reactjs-text-analyzer.netlify.app/)          |
+| Challenge #2: React Password Generator        | Logic for generating and validating passwords with specified strength | [Challenge Description](https://www.codevertiser.com/react-password-generator/)                   | [Live Demo](https://reactjs-password-generator.vercel.app/)      |
+| Challenge #3: React Random Quote Generator    | Fetching and displaying random quotes using ReactJS                   | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-3-random-quote-generator/) | [Live Demo](https://react-random-quote-application.netlify.app/) |
+| Challenge #4: CRUD Typescript Tasklist App    | Perform CRUD operations in a tasklist app using React and TypeScript  | [Challenge Description](https://www.codevertiser.com/reactjs-challenge-4-crud-tasklist-app/)      | [Live Demo](https://react-tasklist.vercel.app)                   |
+| Challenge #5: Memory Game React               | Write a logic for versatile memory game in Reactjs                    | [Challenge Description](https://www.codevertiser.com/memory-game-react/)                          | [Live Demo](https://memory-marvel.vercel.app/)                   |
 
 ## Who Can Use these ReactJS Coding Challenges?
 
@@ -24,11 +24,11 @@ This repository contains a collection of free ReactJS coding challenges designed
 
 All challenges are free. I wanted the challenges to be different and designed them carefully. In each challenge, I have covered different skill sets of JavaScript and Reactjs, from the array to object, the string to regex, and Reactjs hooks.
 
-## Challenge #1: Introduction to Text Analyzer Tool
+## Challenge #1: Introduction to Word and Sentences Counter Tool
 
-![text-analyzer-result.png](./assets/images/reactjs-text-analyzer-result.png)
+![word sentences counter tool](https://ik.imagekit.io/cpnw7c0xpe/Codevertiser/word-sentence-counter.png?updatedAt=1726141603149)
 
-The text analyzer is the first in the series of ReactJS coding challenges. In this challenge, we have created a text area that calculates some parameters in the typed or pasted Text. The text area should calculate and show the following:
+The text analyzer (word and sentences counter) is the first in the series of ReactJS coding challenges. In this challenge, we have created a text area that calculates some parameters in the typed or pasted Text. The text area should calculate and show the following:
 
 1. Words
 2. Characters
@@ -38,7 +38,7 @@ The text analyzer is the first in the series of ReactJS coding challenges. In th
 6. The longest word in paragraphs
 7. Number of pronouns in the Text (list is given)
 
-**Read the Challenge [Description](https://www.codevertiser.com/reactjs-challenge-1-text-analyzer-tool/)**
+**Read the Challenge [Description](https://www.codevertiser.com/react-online-word-sentences-counter/)**
 
 **Objective:** To make each feature of app functional. [This](https://reactjs-text-analyzer.netlify.app/) is a live link of demo app.
 
