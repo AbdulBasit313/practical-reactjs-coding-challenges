@@ -33,7 +33,9 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-top: 70px;
+  margin-bottom: 30px;
   @include breakpoints.devices(sm) {
+    margin-bottom: 0;
     margin-top: 15px;
   }
 }
