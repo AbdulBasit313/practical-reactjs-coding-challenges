@@ -1,11 +1,11 @@
 import classNames from "classnames"
 import { ReactComponent as DeleteIcon } from "../../assets/icons/delete.svg"
 import { ReactComponent as EditIcon } from "../../assets/icons/edit.svg"
-import CircularProgressBar from "../CircularProgressBar"
+import LinearProgressBar from "../LinearProgressBar"
 import "./style.scss"
 
 const TaskCard = ({ task }: any) => {
-  const { id, title, priority, status, progress } = task
+  const { title, priority, status, progress } = task
 
   return (
     <div className="task-card">
@@ -21,7 +21,7 @@ const TaskCard = ({ task }: any) => {
         <button className="status">{status}</button>
       </div>
       <div className="progress">
-        <CircularProgressBar strokeWidth={2} sqSize={24} percentage={progress} />
+        <LinearProgressBar percentage={progress} />
       </div>
       <div className="actions">
         <EditIcon className="mr-20 cp" />

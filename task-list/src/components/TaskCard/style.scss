@@ -78,8 +78,10 @@
 }
 
 .progress {
+  min-width: 150px;
   @include breakpoints.devices(sm) {
     margin-top: 15px;
+    width: 100%;
   }
 }
 
