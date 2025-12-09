@@ -1,0 +1,33 @@
+@use "../../styles/index.scss" as *;
+
+.linear-progress-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 120px;
+}
+
+.linear-progress-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #e5e6e9;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.linear-progress-fill {
+  height: 100%;
+  background-color: #713fff;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.linear-progress-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: $primary-color;
+  min-width: 35px;
+  text-align: right;
+}
+

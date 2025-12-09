@@ -3,7 +3,6 @@ import "./style.scss"
 
 interface Props {
   percentage: number
-  blah?: string
 }
 
 const LinearProgressBar: FC<Props> = ({ percentage }) => {
